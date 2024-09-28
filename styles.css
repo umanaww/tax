@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-inscription {
+    display: flex;
+    align-items: center;
+}
+
+.main-inscription h1 {
+    font-weight: 600;
+    margin: 0;
+    margin-right: 10px;
+    font-size: 40px;
+     /* Расстояние между текстом и SVG */
+}
+
+.main-inscription svg{
+    margin-bottom: 13px;
+    fill: rgb(0, 234, 0);
+}
+
+.down-inscription {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 300; /* Расстояние между main-inscription и down-inscription */
+}
